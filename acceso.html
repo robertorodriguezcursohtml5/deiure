@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0,  minimum-scale=1.0">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta id="viewport" name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0,
+        minimum-scale=1.0, maximum-scale=l.0">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="icon" type="image/x-icon" href="ley.ico">
+		<link rel="stylesheet" href="estilos.css">
+		<link rel="shortcut icon" href="favicon.png" sizes="32x32" <!--32x32 pixeles -->
+		<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">-->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <title>Acceso Socios De Iure</title>
+		<title>Bootstrap Example</title>
+		<TITLE>pie de página</TITLE>
+</head>
+
+<body>   
+    <!-- <div id="saludo"></div> -->
+    <br>
+    <br>
+    <br>
+
+    <div >
+        <center>
+        <div >
+        
+            <table border="0" style="margin-top: 2%;">
+            
+                <tr>
+                    <td>
+                        <center>
+                            <a href="index.html"><img src="ley_balanza.jpg" width="80" height="80" margin-top: 30%;"></a> 
+                        </center>
+
+                        <center>
+                        <h3 style="color:rgb(170, 15, 15); margin-left: 10%; margin-top: 2%;">
+                            Abogados Mediadores DE IURE
+                        </h3>
+
+                        <h5 style="color:black;margin-left: 10%;margin-right: 10%;">
+                            Acceso Socios De Iure
+                        </h5>
+                        </center>
+
+                            <br>
+                        
+                        <center>
+                            <h5 style="color:rgb(170, 15, 15);margin-left: 10%;margin-right: 10%;">
+                        
+                                <form action="" method="get">
+                                    <p>
+                                    <form action="index.html" method="post" target="_blank">
+
+                                        <p>Usuario: <input type="text" name="" id="usuario"></p>
+                                    
+                                        <p>Contraseña: <input type="password" id="pass"></p>
+
+                                        <br>
+                                    
+                                        <p><input type="button" value="Acceso a cuenta" onclick="login()"></p>
+                                    
+                                    </form>
+
+                                    <a href="https://support.google.com/accounts/answer/41078?hl=es&co=GENIE.Platform%3DAndroid" target="_blank">¿Ha olvidado su contraseña?</a> · <a href="https://administracion.gob.es/pag_Home/espanaAdmon/comoSeOrganizaEstado/Administracion_Gral_Estado.html" target="_blank"> Contacta con el Administrador</a>
+                            </h5>
+                        </center>
+                    
+    
+                    </td>
+    
+                </tr>
+    
+            </table>
+       
+        </div>
+    </center>
+    </div>
+                <br>
+                <br>
+
+    <footer>
+        <div class="container-footer">
+                <br>
+                <br>
+            <div class="footer">
+                <br>
+                
+                <div class="copyright">
+                    Copyright ©2022 Todos los derechos reservados | <a href="index.html">deiure.com</a>
+                </div>
+                
+                <div class="information">
+                    <a href="">Política de Privacidad</a>|
+                    <a href="">Términos y Condiciones</a>|
+                    <a href="https://www.mptfp.gob.es/portal/ministerio/proteccion-datos/normativa.html" target="_blank">Aviso Legal</a>|
+                    <a href="lafirma.html">Quienes somos</a>|
+                    <a href="contacto.html">Contactar</a>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function login() {
+            var usuario = document.getElementById("usuario").value;
+            var pass =document.getElementById("pass").value;
+
+            var usuarioValido = "Roberto";
+            var passValido = "contraseña2";
+            if (usuario == usuarioValido && pass ==passValido) {
+                    
+                    window.open("bienvenido.html", '_blank');
+            } else {
+                alert("¿Has olvidado tu contraseña?");
+                location.replace("http://gmail.com");
+            }
+        }
+    </script>
+     
+
+</body>
+</html>
